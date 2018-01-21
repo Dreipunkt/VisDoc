@@ -1,0 +1,219 @@
+% $Id: template.tex 11 2007-04-03 22:25:53Z jpeltier $
+
+\documentclass{vgtc}                          % final (conference style)
+%\documentclass[review]{vgtc}                 % review
+%\documentclass[widereview]{vgtc}             % wide-spaced review
+%\documentclass[preprint]{vgtc}               % preprint
+%\documentclass[electronic]{vgtc}             % electronic version
+
+%% Uncomment one of the lines above depending on where your paper is
+%% in the conference process. ``review'' and ``widereview'' are for review
+%% submission, ``preprint'' is for pre-publication, and the final version
+%% doesn't use a specific qualifier. Further, ``electronic'' includes
+%% hyperreferences for more convenient online viewing.
+
+%% Please use one of the ``review'' options in combination with the
+%% assigned online id (see below) ONLY if your paper uses a double blind
+%% review process. Some conferences, like IEEE Vis and InfoVis, have NOT
+%% in the past.
+
+%% Figures should be in CMYK or Grey scale format, otherwise, colour 
+%% shifting may occur during the printing process.
+
+%% These few lines make a distinction between latex and pdflatex calls and they
+%% bring in essential packages for graphics and font handling.
+%% Note that due to the \DeclareGraphicsExtensions{} call it is no longer necessary
+%% to provide the the path and extension of a graphics file:
+%% \includegraphics{diamondrule} is completely sufficient.
+%%
+\ifpdf%                                % if we use pdflatex
+  \pdfoutput=1\relax                   % create PDFs from pdfLaTeX
+  \pdfcompresslevel=9                  % PDF Compression
+  \pdfoptionpdfminorversion=7          % create PDF 1.7
+  \ExecuteOptions{pdftex}
+  \usepackage{graphicx}                % allow us to embed graphics files
+  \DeclareGraphicsExtensions{.pdf,.png,.jpg,.jpeg} % for pdflatex we expect .pdf, .png, or .jpg files
+\else%                                 % else we use pure latex
+  \ExecuteOptions{dvips}
+  \usepackage{graphicx}                % allow us to embed graphics files
+  \DeclareGraphicsExtensions{.eps}     % for pure latex we expect eps files
+\fi%
+
+%% it is recomended to use ``\autoref{sec:bla}'' instead of ``Fig.~\ref{sec:bla}''
+\graphicspath{{figures/}{pictures/}{images/}{./}} % where to search for the images
+
+\usepackage{microtype}                 % use micro-typography (slightly more compact, better to read)
+\PassOptionsToPackage{warn}{textcomp}  % to address font issues with \textrightarrow
+\usepackage{textcomp}                  % use better special symbols
+\usepackage{mathptmx}                  % use matching math font
+\usepackage{times}                     % we use Times as the main font
+\renewcommand*\ttdefault{txtt}         % a nicer typewriter font
+\usepackage{cite}                      % needed to automatically sort the references
+\usepackage{tabu}                      % only used for the table example
+\usepackage{booktabs}                  % only used for the table example
+%% We encourage the use of mathptmx for consistent usage of times font
+%% throughout the proceedings. However, if you encounter conflicts
+%% with other math-related packages, you may want to disable it.
+
+
+%% If you are submitting a paper to a conference for review with a double
+%% blind reviewing process, please replace the value ``0'' below with your
+%% OnlineID. Otherwise, you may safely leave it at ``0''.
+\onlineid{0}
+
+%% declare the category of your paper, only shown in review mode
+\vgtccategory{Research}
+
+%% allow for this line if you want the electronic option to work properly
+\vgtcinsertpkg
+
+%% In preprint mode you may define your own headline.
+%\preprinttext{To appear in an IEEE VGTC sponsored conference.}
+
+%% Paper title.
+
+\title{Design study project: Suicide Rates}
+
+%% Author and Affiliation (multiple authors with single affiliations).
+\author{Christian Rauch\thanks{e-mail: a01202875@unet.univie.ac.at} %
+\and Daniel Hanzer\thanks{e-mail: a01349699@unet.univie.ac.at} %
+\and Roman Schneglberger\thanks{e-mail: a01127050@unet.univie.ac.at}}
+\affiliation{\scriptsize University of Vienna \\ Faculty of Computer Science}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%% START OF THE PAPER %%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{document}
+
+\maketitle
+
+\section{Motivation}
+
+\section{Related work}
+
+\section{Approach}
+
+\section{Implementation}
+
+\section{Results}
+
+\subsection{Scenarios of use examples}
+\begin{itemize}
+\item Researching the impact of events on suicide rates
+
+A researcher wants to view the impact on suicide rates in a country of a certain event that happened in 1985. For this, the researcher selects the country in the map view (Figure \ref{fig:resMap}) and selects a appropriate time scale (Figure \ref{fig:resTime}).
+
+In the line chart (Figure \ref{fig:resLine}) a slightly lower suicide rate in Canada in the year 1985 is visible.
+
+\item Researching how much / if economical factors influence the suicide rates in different countries
+
+We select multiple European countries with CTRL + click on the map view as shown in Figure \ref{fig:resMapM}. In the color coded scatter plot matrix (shown in Figure \ref{fig:resScatter}) you can compare the correlation between various economical factors and suicide rates in the selected European countries.
+
+\item Simply comparing suicide rates in different countries
+
+Without selecting anything, per default our visualization shows the suicide rates of all countries (with available data) in a bar chart. As you can see in Figure \ref{fig:resBarChart}, the bar chart features color coding (identical to scatter plot matrix) and a mouse-over hint.
+
+This default view should show the large differences in suicide rates in the various countries and encourage interest to the question "Why is that?". The user can now play around with the other charts and try to find possible explanations in economical factors.
+
+\begin{figure}[tb]
+\centering
+\includegraphics[width=\columnwidth]{image/chris/researcher01.png}
+\caption{Line chart showing a dip in the value of suicide rates in Canada of 1985}
+\label{fig:resLine} 
+\end{figure}
+
+\begin{figure}[tb]
+\centering
+\includegraphics[width=\columnwidth]{image/chris/researcher02.png}
+\caption{Selecting a time scale for a more detailed view}
+\label{fig:resTime} 
+\end{figure}
+
+\begin{figure}[tb]
+\centering
+\includegraphics[width=\columnwidth]{image/chris/researcher03.png}
+\caption{Map view}
+\label{fig:resMap} 
+\end{figure}
+
+\begin{figure}[tb]
+\centering
+\includegraphics[width=\columnwidth]{image/chris/researcher04.png}
+\caption{Multiple selection on map view}
+\label{fig:resMapM} 
+\end{figure}
+
+\begin{figure}[tb]
+\centering
+\includegraphics[width=\columnwidth]{image/chris/researcher05.png}
+\caption{Scatter plot matrix}
+\label{fig:resScatter} 
+\end{figure}
+
+\begin{figure}[tb]
+\centering
+\includegraphics[width=\columnwidth]{image/chris/researcher06.png}
+\caption{Default view of bar chart with mouse-over hint}
+\label{fig:resBarChart} 
+\end{figure}
+
+\end{itemize}
+
+\subsection{Performance of the system}
+We designed, tested and improved our visualization to perform well with the intended use case scenarios, including but not limited to the ones detailed in 5.1.
+
+The performance in speed is limited by our visualization tool of choice (tableau) and the size of the dataset. We discussed limiting the dataset, but that would possibly lower the functionality for a rather small usability gain and could also violate the design principle to show context.
+
+\subsection{Feedback from evaluations}
+User feedback was a vital element in the design and improvement of our visualization. We improved the color coding (figures \ref{fig:resScatter} and \ref{fig:resBarChart}), implemented a scatter plot matrix instead of multiple scatter plots (or scatter plots selectable by a drop-down menu) and made a split line graph (figure \ref{fig:resLine}) all based on user feedback and evaluations.
+
+With our final visualization the only user complaint remaining is the loading time when selecting multiple countries one after another and initial difficulties to interpret the scatter plot chart.
+
+\section{Discussion}
+
+\subsection{Strengths and weaknesses of our visualization}
+
+\subparagraph{Strengths}
+Every graph is necessary to visualize the intended concepts - no "chart clutter". Our visualization provides a quick overview of the different suicide rates in many OECD nations per default and makes it easy to compare them, which would probably be the most common use case. For a more detailed analysis it provides the necessary tools to find possible correlations to other factors (economical and developmental).
+
+The scatter plot matrix makes it easier, especially for advanced users, to spot correlation between the visualized data on a grand scale - the line chart on a more time based / historical scale. It can be simplified by restricting the number of countries shown.
+
+\subparagraph{(Possible) Weaknesses}
+There are only so many factors we could incorporate into our visualization and it is not guaranteed there are correlations between these factors and suicide rates. If we included more it could lead to a too complex visualization and possibly make it even less likely for users to spot correlations as a result.
+
+Selecting countries in the map view leads to loading times. It is not a very significant problem, but if the user wants to select many countries (for example European countries) it becomes annoying pretty fast. We tried to improve the loading times, but it seems to be a problem with tableau and the size of the datasets.
+
+The scatter plot matrix can be slightly difficult to read and interpret correctly because of its high data density. However we are confident this is the best way to visualize possible correlations between the various datasets and suicide rate among all countries and it enables the user to spot correlations on a grand scale in one graph.
+
+\subsection{Lessons learned}
+
+\begin{itemize}
+\item Visualization can be a time consuming process and good time planning is necessary.
+\item User feedback is a vital element for visualization. The developers are very likely to overlook possible flaws and shortcomings.
+\item Tableau is an easy to use tool if you want your visualization to work and look exactly as the developers intended it to. If you want to do something "non-standard" with this tool, the process can become quite complicated.
+\end{itemize}
+
+\section{Separation of Tasks: Milestone 4}
+Christian Rauch:
+\begin{itemize}
+\item "Results" section
+\item "Discussion" section
+\item "Separation of Tasks" section
+\item LaTeX document setup and coding
+\end{itemize}
+
+Daniel Hanzer:
+\begin{itemize}
+\item Improvements and implementation of feedback in visualization (correct color coding and scatter plot matrix)
+\item "Motivation" section
+\end{itemize}
+
+Roman Schneglberger:
+\begin{itemize}
+\item "Related Work" section
+\item "Approach" section
+\item "Implementation" section
+\end{itemize}
+
+\end{document}
