@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6500 64-bit) (preloaded format=pdflatex 2018.1.20)  21 JAN 2018 17:47
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6500 64-bit) (preloaded format=pdflatex 2018.1.20)  21 JAN 2018 18:11
 entering extended mode
 **./VisPaper.tex
 (VisPaper.tex
@@ -552,28 +552,28 @@ Underfull \hbox (badness 2080) in paragraph at lines 112--112
 []\OT1/phv/b/n/9 Other vi-su-al-iza-tions we dis-cov-ered dur-ing this
  []
 
-<image/roman/researches.png, id=98, 1002.74625pt x 456.70625pt>
+<image/roman/researches.png, id=102, 1002.74625pt x 456.70625pt>
 File: image/roman/researches.png Graphic file (type png)
 <use image/roman/researches.png>
 Package pdftex.def Info: image/roman/researches.png  used on input line 118. on
  input line 118.
 Package pdftex.def Info: Requested size: 240.94499pt x 109.73717pt on input lin
 e 118.
-<image/roman/scientificvalues.png, id=100, 1606.0pt x 991.705pt>
+<image/roman/scientificvalues.png, id=104, 1606.0pt x 991.705pt>
 File: image/roman/scientificvalues.png Graphic file (type png)
 <use image/roman/scientificvalues.png>
 Package pdftex.def Info: image/roman/scientificvalues.png  used on input line 1
 25. on input line 125.
 Package pdftex.def Info: Requested size: 240.94499pt x 148.77959pt on input lin
 e 125.
-<image/roman/oecd.png, id=101, 884.30376pt x 771.88374pt>
+<image/roman/oecd.png, id=105, 884.30376pt x 771.88374pt>
 File: image/roman/oecd.png Graphic file (type png)
 <use image/roman/oecd.png>
 Package pdftex.def Info: image/roman/oecd.png  used on input line 132. on input
  line 132.
 Package pdftex.def Info: Requested size: 240.94499pt x 210.30765pt on input lin
 e 132.
-<image/roman/malefemale.png, id=103, 514.92375pt x 468.75125pt>
+<image/roman/malefemale.png, id=107, 514.92375pt x 468.75125pt>
 File: image/roman/malefemale.png Graphic file (type png)
 <use image/roman/malefemale.png>
 Package pdftex.def Info: image/roman/malefemale.png  used on input line 142. on
@@ -589,7 +589,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 149--158
 
 
  <./image/roman/researches.png> <./image/roman/scientificvalues.png>]
-<image/roman/tableau.png, id=118, 1284.8pt x 1397.22pt>
+<image/roman/tableau.png, id=122, 1284.8pt x 1397.22pt>
 File: image/roman/tableau.png Graphic file (type png)
 <use image/roman/tableau.png>
 Package pdftex.def Info: image/roman/tableau.png  used on input line 177. on in
@@ -598,42 +598,42 @@ Package pdftex.def Info: Requested size: 240.94499pt x 262.02075pt on input lin
 e 177.
  [2 <./image/roman/oecd.png (PNG copy)> <./image/roman/malefemale.png (PNG copy
 )>]
-<image/chris/researcher01.png, id=135, 458.46281pt x 233.37187pt>
+<image/chris/researcher01.png, id=139, 458.46281pt x 233.37187pt>
 File: image/chris/researcher01.png Graphic file (type png)
 <use image/chris/researcher01.png>
 Package pdftex.def Info: image/chris/researcher01.png  used on input line 217. 
 on input line 217.
 Package pdftex.def Info: Requested size: 240.94499pt x 122.65025pt on input lin
 e 217.
-<image/chris/researcher02.png, id=136, 874.76813pt x 36.135pt>
+<image/chris/researcher02.png, id=140, 874.76813pt x 36.135pt>
 File: image/chris/researcher02.png Graphic file (type png)
 <use image/chris/researcher02.png>
 Package pdftex.def Info: image/chris/researcher02.png  used on input line 224. 
 on input line 224.
 Package pdftex.def Info: Requested size: 240.94499pt x 9.95285pt on input line 
 224.
-<image/chris/researcher03.png, id=137, 457.71pt x 321.45094pt>
+<image/chris/researcher03.png, id=141, 457.71pt x 321.45094pt>
 File: image/chris/researcher03.png Graphic file (type png)
 <use image/chris/researcher03.png>
 Package pdftex.def Info: image/chris/researcher03.png  used on input line 231. 
 on input line 231.
 Package pdftex.def Info: Requested size: 240.94499pt x 169.21552pt on input lin
 e 231.
-<image/chris/researcher04.png, id=138, 457.71pt x 321.45094pt>
+<image/chris/researcher04.png, id=142, 457.71pt x 321.45094pt>
 File: image/chris/researcher04.png Graphic file (type png)
 <use image/chris/researcher04.png>
 Package pdftex.def Info: image/chris/researcher04.png  used on input line 238. 
 on input line 238.
 Package pdftex.def Info: Requested size: 240.94499pt x 169.21552pt on input lin
 e 238.
-<image/chris/researcher05.png, id=139, 420.82219pt x 316.93407pt>
+<image/chris/researcher05.png, id=143, 420.82219pt x 316.93407pt>
 File: image/chris/researcher05.png Graphic file (type png)
 <use image/chris/researcher05.png>
 Package pdftex.def Info: image/chris/researcher05.png  used on input line 245. 
 on input line 245.
 Package pdftex.def Info: Requested size: 240.94499pt x 181.46674pt on input lin
 e 245.
-<image/chris/researcher06.png, id=140, 462.97969pt x 245.41687pt>
+<image/chris/researcher06.png, id=144, 462.97969pt x 245.41687pt>
 File: image/chris/researcher06.png Graphic file (type png)
 <use image/chris/researcher06.png>
 Package pdftex.def Info: image/chris/researcher06.png  used on input line 252. 
@@ -643,23 +643,23 @@ e 252.
  [3 <./image/roman/tableau.png> <./image/chris/researcher01.png> <./image/chris
 /researcher02.png> <./image/chris/researcher03.png> <./image/chris/researcher04
 .png>]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 315.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 318.
 
 [4 <./image/chris/researcher05.png> <./image/chris/researcher06.png>]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 315.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 318.
 
 (VisPaper.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 315.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 315.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 318.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 318.
 Package rerunfilecheck Info: File `VisPaper.out' has not changed.
-(rerunfilecheck)             Checksum: 634610BFDF65F79E55FFC259F83B9657;1586.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 315.
+(rerunfilecheck)             Checksum: C3ABEAC3212ABDB87DAC7A79CA3DBA37;1644.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 318.
  ) 
 Here is how much of TeX's memory you used:
- 8488 strings out of 493312
- 129749 string characters out of 3138887
+ 8490 strings out of 493312
+ 129777 string characters out of 3138887
  245684 words of memory out of 3000000
- 11744 multiletter control sequences out of 15000+200000
+ 11745 multiletter control sequences out of 15000+200000
  40195 words of font info for 159 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  36i,12n,38p,936b,396s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -667,9 +667,9 @@ Here is how much of TeX's memory you used:
 KTeX 2.9/fonts/type1/urw/helvetic/uhvb8a.pfb><C:/Program Files/MiKTeX 2.9/fonts
 /type1/urw/helvetic/uhvr8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/tim
 es/utmr8a.pfb>
-Output written on VisPaper.pdf (4 pages, 1340345 bytes).
+Output written on VisPaper.pdf (4 pages, 1340699 bytes).
 PDF statistics:
- 185 PDF objects out of 1000 (max. 8388607)
- 41 named destinations out of 1000 (max. 500000)
- 36080 words of extra memory for PDF output out of 42996 (max. 10000000)
+ 189 PDF objects out of 1000 (max. 8388607)
+ 42 named destinations out of 1000 (max. 500000)
+ 36088 words of extra memory for PDF output out of 42996 (max. 10000000)
 
