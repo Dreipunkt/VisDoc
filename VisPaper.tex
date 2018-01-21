@@ -109,11 +109,88 @@ The Project focused mainly on the Dataset "Suicide rates" from OECD Data. The Da
 
 \section{Related work}
 
+\subsection{Other visualizations we discovered during this project:}
+
+We did a lot of research in advance on interesting large datasets. From data visualisation point of view(Figure \ref{fig:tableau}) and also in scientific papers(Figure \ref{fig:scientific}), which deal with the topic, as these also contain graphics to clarify the text/make a point. These papers had mostly poor graphics included, or tables with numerical values. There were also some visualizations on Tableau-Public - these showed small details of the total amount of data. For example only for a few countries, not linking the the data to other datasets or providing interactivity. OECD(Figure \ref{fig:oecd}) website shows also graphs with their information. The solution can be used on many visualization topics.
+
+\begin{figure}[tb]
+\centering
+\includegraphics[width=\columnwidth]{image/roman/researches.png}
+\caption{Vis from Tableau}
+\label{fig:tableau} 
+\end{figure}
+
+\begin{figure}[tb]
+\centering
+\includegraphics[width=\columnwidth]{image/roman/scientificvalues.png}
+\caption{Data usage in scientific papers}
+\label{fig:scientific} 
+\end{figure}
+
+\begin{figure}[tb]
+\centering
+\includegraphics[width=\columnwidth]{image/roman/oecd.png}
+\caption{View from oecd webpage}
+\label{fig:oecd} 
+\end{figure}
+
+\subsection{Any previous visualization Ideas}
+One idea discarded was this detail visualization on male to female ratio(Figure \ref{fig:malefemale}) by limitations of Tableau.
+
+\begin{figure}[tb]
+\centering
+\includegraphics[width=\columnwidth]{image/roman/malefemale.png}
+\caption{Gender gap}
+\label{fig:malefemale} 
+\end{figure}
+
+\subsection{References both academic and commercial tools used}
+
+Tools used in this project: \\
+https://public.tableau.com/en-us/s/ \\
+Data taken from: \\
+https://data.oecd.org/healthstat/suicide-rates.htm \\
+https://data.oecd.org/unemp/unemployment-rate.htm \\
+https://data.oecd.org/inequality/poverty-rate.htm \\
+https://data.oecd.org/gdp/gross-domestic-product-gdp.htm \\
+Other resources used: \\
+http://www.cs.ubc.ca/~tmm/courses/533-11/resources.html \\
+
 \section{Approach}
+
+\subsection{Description (of our visualization design):}
+
+The approach was to build a tool for end users, so they can discover and get insight into suicide rates. And for us, to practice visualisation techniques from this course. For this reasons we choose a huge dataset containing lots of usable data. OECD website has a lot of public datasets available. We thought of combining suicide data with poverty rates, GDP and unemployment rates to see, if these matches together.
+We discussed a lot of ideas, talked about possible solutions and how to implement the course content. Then we build a prototype with many example views. 
+Next step was to get feedback and improve the views. We picked the best visualization and refined them. So then we finally came up with a single dashboard.
+
+
+\subsection{Brief description of the dashboard views:}
+
+The dashboard(Figure \ref{fig:dash}) contains a huge map that is zoom and panable, shows data on the different countries with available information. The heatmap shows the number of suicides, a darker blue indicates a higher suicide rate. 
+Top right are the different values shown, each of these 41 in a individual colour.
+Bottom left is the timeline, a drop down menu can be used to show different data in comparison to the suicide rate(GDB, poverty and unemployment rate). A filters can be applied to the timeline. And then we have this scatter plot showing how this data correlates. On mouse over the users get a little tooltip window showing information.
+Multiple elements selected and be filtered.
+
+\begin{figure}[tb]
+\centering
+\includegraphics[width=\columnwidth]{image/roman/tableau.png}
+\caption{dashboard view}
+\label{fig:dash} 
+\end{figure}
 
 \section{Implementation}
 
-\section{Results}
+\subsection{Brief description of the Implementation}
+
+We decided to make use of Tablea after discussing other more technically challenging toolkits like d3 library. Our design study project on mind we have come to think about simplicity, focusing on the usability and interaction possibilities of a proven solution. Previously we worked with Tableau, that's why we decided to use it. On the other hand, there are some limitations that go along with it. 
+
+
+\subsection{Implemetaion challenges}
+
+Implementation Issues encountered, Public Tableau naturally has some restrictions to what can be accomplished.
+The used datasets were fairly huge. Joining the data together often resulted unexpected program behavior. The original datasets were missing some information, so there is no data provided for all countries. In the original data there were differnt scales used on the data. Some filters were hard to apply, also the selection in the drop down menu.
+Creating 41 different colours for the country list was also difficult.
 
 \subsection{Scenarios of use examples}
 \begin{itemize}
