@@ -4,13 +4,20 @@
 \BOOKMARK [2][]{subsection.4}{Users}{section.1}% 4
 \BOOKMARK [2][]{subsection.5}{Data}{section.1}% 5
 \BOOKMARK [1][]{section.6}{Related work}{}% 6
-\BOOKMARK [1][]{section.7}{Approach}{}% 7
-\BOOKMARK [1][]{section.8}{Implementation}{}% 8
-\BOOKMARK [1][]{section.9}{Results}{}% 9
-\BOOKMARK [2][]{subsection.10}{Scenarios of use examples}{section.9}% 10
-\BOOKMARK [2][]{subsection.17}{Performance of the system}{section.9}% 11
-\BOOKMARK [2][]{subsection.18}{Feedback from evaluations}{section.9}% 12
-\BOOKMARK [1][]{section.19}{Discussion}{}% 13
-\BOOKMARK [2][]{subsection.20}{Strengths and weaknesses of our visualization}{section.19}% 14
-\BOOKMARK [2][]{subsection.23}{Lessons learned}{section.19}% 15
-\BOOKMARK [1][]{section.24}{Separation of Tasks: Milestone 4}{}% 16
+\BOOKMARK [2][]{subsection.7}{Other visualizations we discovered during this project:}{section.6}% 7
+\BOOKMARK [2][]{subsection.11}{Any previous visualization Ideas}{section.6}% 8
+\BOOKMARK [2][]{subsection.13}{References both academic and commercial tools used}{section.6}% 9
+\BOOKMARK [1][]{section.14}{Approach}{}% 10
+\BOOKMARK [2][]{subsection.15}{Description \(of our visualization design\):}{section.14}% 11
+\BOOKMARK [2][]{subsection.16}{Brief description of the dashboard views:}{section.14}% 12
+\BOOKMARK [1][]{section.18}{Implementation}{}% 13
+\BOOKMARK [2][]{subsection.19}{Brief description of the Implementation}{section.18}% 14
+\BOOKMARK [2][]{subsection.20}{Implementation challenges}{section.18}% 15
+\BOOKMARK [1][]{section.21}{Results}{}% 16
+\BOOKMARK [2][]{subsection.22}{Scenarios of use examples}{section.21}% 17
+\BOOKMARK [2][]{subsection.29}{Performance of the system}{section.21}% 18
+\BOOKMARK [2][]{subsection.30}{Feedback from evaluations}{section.21}% 19
+\BOOKMARK [1][]{section.31}{Discussion}{}% 20
+\BOOKMARK [2][]{subsection.32}{Strengths and weaknesses of our visualization}{section.31}% 21
+\BOOKMARK [2][]{subsection.35}{Lessons learned}{section.31}% 22
+\BOOKMARK [1][]{section.36}{Separation of Tasks: Milestone 4}{}% 23

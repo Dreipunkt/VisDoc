@@ -168,7 +168,7 @@ Next step was to get feedback and improve the views. We picked the best visualiz
 \subsection{Brief description of the dashboard views:}
 
 The dashboard(Figure \ref{fig:dash}) contains a huge map that is zoom and panable, shows data on the different countries with available information. The heatmap shows the number of suicides, a darker blue indicates a higher suicide rate. 
-Top right are the different values shown, each of these 41 in a individual colour.
+Top right are the different values shown, each of these 41 in a individual color.
 Bottom left is the timeline, a drop down menu can be used to show different data in comparison to the suicide rate(GDB, poverty and unemployment rate). A filters can be applied to the timeline. And then we have this scatter plot showing how this data correlates. On mouse over the users get a little tooltip window showing information.
 Multiple elements selected and be filtered.
 
@@ -183,14 +183,16 @@ Multiple elements selected and be filtered.
 
 \subsection{Brief description of the Implementation}
 
-We decided to make use of Tablea after discussing other more technically challenging toolkits like d3 library. Our design study project on mind we have come to think about simplicity, focusing on the usability and interaction possibilities of a proven solution. Previously we worked with Tableau, that's why we decided to use it. On the other hand, there are some limitations that go along with it. 
+We decided to make use of Tableau after discussing other more technically challenging toolkits like d3 library. Our design study project on mind we have come to think about simplicity, focusing on the usability and interaction possibilities of a proven solution. Previously we worked with Tableau, that's why we decided to use it. On the other hand, there are some limitations that go along with it. 
 
 
-\subsection{Implemetaion challenges}
+\subsection{Implementation challenges}
 
-Implementation Issues encountered, Public Tableau naturally has some restrictions to what can be accomplished.
-The used datasets were fairly huge. Joining the data together often resulted unexpected program behavior. The original datasets were missing some information, so there is no data provided for all countries. In the original data there were differnt scales used on the data. Some filters were hard to apply, also the selection in the drop down menu.
-Creating 41 different colours for the country list was also difficult.
+Implementation issues encountered, Public Tableau naturally has some restrictions to what can be accomplished.
+The used datasets were fairly huge. Joining the data together often resulted unexpected program behavior. The original datasets were missing some information, so there is no data provided for all countries. In the original data there were different scales used on the data. Some filters were hard to apply, also the selection in the drop down menu.
+Creating 41 different colors for the country list was also difficult.
+
+\section{Results}
 
 \subsection{Scenarios of use examples}
 \begin{itemize}
@@ -257,10 +259,10 @@ This default view should show the large differences in suicide rates in the vari
 \subsection{Performance of the system}
 We designed, tested and improved our visualization to perform well with the intended use case scenarios, including but not limited to the ones detailed in 5.1.
 
-The performance in speed is limited by our visualization tool of choice (tableau) and the size of the dataset. We discussed limiting the dataset, but that would possibly lower the functionality for a rather small usability gain and could also violate the design principle to show context.
+The performance in speed is limited by our visualization tool of choice (Tableau) and the size of the dataset. We discussed limiting the dataset, but that would possibly lower the functionality for a rather small usability gain and could also violate the design principle to show context.
 
 \subsection{Feedback from evaluations}
-User feedback was a vital element in the design and improvement of our visualization. We improved the color coding (figures \ref{fig:resScatter} and \ref{fig:resBarChart}), implemented a scatter plot matrix instead of multiple scatter plots (or scatter plots selectable by a drop-down menu) and made a split line graph (figure \ref{fig:resLine}) all based on user feedback and evaluations.
+User feedback was a vital element in the design and improvement of our visualization. We improved the color coding (Figures \ref{fig:resScatter} and \ref{fig:resBarChart}), implemented a scatter plot matrix instead of multiple scatter plots (or scatter plots selectable by a drop-down menu) and made a split line graph (Figure \ref{fig:resLine}) all based on user feedback and evaluations.
 
 With our final visualization the only user complaint remaining is the loading time when selecting multiple countries one after another and initial difficulties to interpret the scatter plot chart.
 
