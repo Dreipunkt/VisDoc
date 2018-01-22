@@ -192,6 +192,13 @@ Implementation issues encountered, Public Tableau naturally has some restriction
 The used datasets were fairly huge. Joining the data together often resulted unexpected program behavior. The original datasets were missing some information, so there is no data provided for all countries. In the original data there were different scales used on the data. Some filters were hard to apply, also the selection in the drop down menu.
 Creating 41 different colors for the country list was also difficult.
 
+\subsection{Reasons for design choices}
+At the beginning we had focused on both, the data and ways to visualize them. The main questioned was, who is the audience. Which end users might want to use this visualization. In which facts they might be interested in? How they gonna use it? So we collected information and feedback and included it in our work.
+
+For this reason one thing we focused on a clear design with high data-ink ratio. There shouldn’t be a distraction from unnecessary chart chunk or from distracting colors. The design is simple, the user interface is easy to use and the charts gives easy to read information an overall good overview.
+The feedback we received was altogether pretty good. No one had problems using it, for most of them is seemed very familiar from the start. So this is an good entry point to explore the data further.
+On top of that the Functionality-Usability-Aesthetics Pyramide was implemented as well.
+
 \section{Results}
 
 \subsection{Scenarios of use examples}
@@ -285,12 +292,17 @@ Selecting countries in the map view leads to loading times. It is not a very sig
 
 The scatter plot matrix can be slightly difficult to read and interpret correctly because of its high data density. However we are confident this is the best way to visualize possible correlations between the various datasets and suicide rate among all countries and it enables the user to spot correlations on a grand scale in one graph.
 
+It might be difficult for someone to distinguish the countries through the colors. We have tried to spread the color variation as well as to respect the brightness, but seeing up to 41 countries in the visualization can cause readability problems.
+
+If the visualization was filtered by only one country, this leads to that the scatterplot is hardly readable, because the x and y axes adjust automatically depending on the values, if there is only one displayed value, this will show in the upper right corner. Unfortunately, we could not fix the axes, because the values of the different countries are very different and this would mean that the smaller values are all in one spot.
+
 \subsection{Lessons learned}
 
 \begin{itemize}
 \item Visualization can be a time consuming process and good time planning is necessary.
 \item User feedback is a vital element for visualization. The developers are very likely to overlook possible flaws and shortcomings.
 \item Tableau is an easy to use tool if you want your visualization to work and look exactly as the developers intended it to. If you want to do something "non-standard" with this tool, the process can become quite complicated.
+\item A good visualization makes it possible to better understand large data sets.
 \end{itemize}
 
 \section{Separation of Tasks: Milestone 4}
